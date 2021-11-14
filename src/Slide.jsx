@@ -1,6 +1,15 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Spinner, Slide, Switch, Space, Divider, Button, Cell, Toast } from 'react-uni-comps';
-import clsx from 'clsx';
+import {
+  Spinner,
+  Slide,
+  Switch,
+  Space,
+  Divider,
+  Button,
+  Cell,
+  Toast,
+  clsx,
+} from 'react-uni-comps';
 
 export default function App() {
   const [autoPlay, setAutoPlay] = useState(false);
@@ -13,10 +22,22 @@ export default function App() {
   return (
     <div className="app">
       <Divider>Slide</Divider>
-      <Cell title="autoPlay" content={<Switch checked={autoPlay} onChange={setAutoPlay} />} />
-      <Cell title="loop" content={<Switch checked={loop} onChange={setLoop} />} />
-      <Cell title="showDot" content={<Switch checked={dot} onChange={setDot} />} />
-      <Cell title="horizontal" content={<Switch checked={isH} onChange={setisH} />} />
+      <Cell
+        title="autoPlay"
+        content={<Switch checked={autoPlay} onChange={setAutoPlay} />}
+      />
+      <Cell
+        title="loop"
+        content={<Switch checked={loop} onChange={setLoop} />}
+      />
+      <Cell
+        title="showDot"
+        content={<Switch checked={dot} onChange={setDot} />}
+      />
+      <Cell
+        title="horizontal"
+        content={<Switch checked={isH} onChange={setisH} />}
+      />
       <Slide
         ref={ref}
         style={{ margin: '10px 12px' }}

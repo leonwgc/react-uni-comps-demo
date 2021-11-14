@@ -60,8 +60,5 @@
   "dependencies": {
     "dayjs": "^1.10.7",
     "react-uni-comps": "^1.0.3"
-  },
-  "sideEffects": [
-    "*.less"
-  ]
+  }
 }
