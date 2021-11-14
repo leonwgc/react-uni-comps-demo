@@ -37,7 +37,16 @@ export default function App() {
           Toast.show('发布中..');
         }}
       >
-        <Button style={{ position: 'fixed', left: 100, top: 300 }}>hello</Button>
+        <Button
+          style={{
+            position: 'fixed',
+
+            left: 100,
+            top: 300,
+          }}
+        >
+          hello
+        </Button>
       </PopConfirm>
     </div>
   );
