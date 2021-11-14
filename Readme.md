@@ -1,4 +1,10 @@
-桌面和移动端 react 组件库
+桌面和移动端 react 组件库 demo
+
+运行：
+
+1. webpack5: `pnpm start`
+
+2. vite2: `pnpm dev`
 
 安装 [npm](https://npmjs.org/) / [yarn](https://yarnpkg.com)
 
@@ -102,7 +108,7 @@ yarn add react-uni-comps
 - Spinner（加载中）
 - Drawer (抽屉)
 - Modal (对话框)
-- PopConfirm (弹出气泡式的确认框) 
+- PopConfirm (弹出气泡式的确认框)
 
 #### 导航组件
 
@@ -235,7 +241,11 @@ import clsx from 'react-uni-comps/es/clsx';
 
 // react-transition-group
 import { CSSTransition, Transition, TransitionGroup } from 'react-uni-comps';
-import { CSSTransition, Transition, TransitionGroup } from 'react-uni-comps/es/transition';
+import {
+  CSSTransition,
+  Transition,
+  TransitionGroup,
+} from 'react-uni-comps/es/transition';
 ```
 
 ### 参考
