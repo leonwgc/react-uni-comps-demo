@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import styled  from 'react-uni-comps/styled';
-import { Divider, Waypoint, Button } from 'react-uni-comps';
+import { Divider, Waypoint, Button, styled } from 'react-uni-comps';
 
 export default function App() {
   const [index, setIndex] = useState(0);
@@ -23,36 +22,44 @@ export default function App() {
             段落 {idx}
           </Divider>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nonne merninisti licere
-            mihi ista probare, quae sunt a te dicta? Refert tamen, quo modo.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nonne
+            merninisti licere mihi ista probare, quae sunt a te dicta? Refert
+            tamen, quo modo.
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nonne merninisti licere
-            mihi ista probare, quae sunt a te dicta? Refert tamen, quo modo.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nonne
+            merninisti licere mihi ista probare, quae sunt a te dicta? Refert
+            tamen, quo modo.
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nonne merninisti licere
-            mihi ista probare, quae sunt a te dicta? Refert tamen, quo modo.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nonne
+            merninisti licere mihi ista probare, quae sunt a te dicta? Refert
+            tamen, quo modo.
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nonne merninisti licere
-            mihi ista probare, quae sunt a te dicta? Refert tamen, quo modo.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nonne
+            merninisti licere mihi ista probare, quae sunt a te dicta? Refert
+            tamen, quo modo.
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nonne merninisti licere
-            mihi ista probare, quae sunt a te dicta? Refert tamen, quo modo.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nonne
+            merninisti licere mihi ista probare, quae sunt a te dicta? Refert
+            tamen, quo modo.
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nonne merninisti licere
-            mihi ista probare, quae sunt a te dicta? Refert tamen, quo modo.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nonne
+            merninisti licere mihi ista probare, quae sunt a te dicta? Refert
+            tamen, quo modo.
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nonne merninisti licere
-            mihi ista probare, quae sunt a te dicta? Refert tamen, quo modo.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nonne
+            merninisti licere mihi ista probare, quae sunt a te dicta? Refert
+            tamen, quo modo.
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nonne merninisti licere
-            mihi ista probare, quae sunt a te dicta? Refert tamen, quo modo.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nonne
+            merninisti licere mihi ista probare, quae sunt a te dicta? Refert
+            tamen, quo modo.
           </p>
         </div>
       ))}

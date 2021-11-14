@@ -1,6 +1,10 @@
 import React, { useEffect } from 'react';
 import { Spinner, Space } from 'react-uni-comps';
-import { CSSTransition, Transition, TransitionGroup } from 'react-uni-comps/transition';
+import {
+  CSSTransition,
+  Transition,
+  TransitionGroup,
+} from 'react-uni-comps/es/transition';
 
 export default function App() {
   return (

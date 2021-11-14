@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import useCountdown from 'react-uni-comps/hooks/useCountdown';
+import useCountdown from 'react-uni-comps/es/hooks/useCountdown';
 import { QuestionCircleOutlined } from '@ant-design/icons';
 import {
   Divider,
@@ -138,14 +138,22 @@ export default function App() {
         <RadioGroup options={options} value={v1} onChange={setV1} />
       </Cell>
       <Cell title="单选按钮">
-        <RadioGroup options={options} value={v1} onChange={setV1} button="fill" />
+        <RadioGroup
+          options={options}
+          value={v1}
+          onChange={setV1}
+          button="fill"
+        />
       </Cell>
       <Cell title="短信验证码">
         <Input
           placeholder="请输入验证码"
           maxLength={6}
           suffix={
-            <span style={{ color: '#FF5D0D' }} onClick={started ? reset : start}>
+            <span
+              style={{ color: '#FF5D0D' }}
+              onClick={started ? reset : start}
+            >
               {started ? countdown + '秒' : '获取验证码'}
             </span>
           }

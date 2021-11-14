@@ -1,6 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react';
-import styled  from 'react-uni-comps/styled';
-import { Space, Switch, Drag } from 'react-uni-comps';
+import { Space, Switch, Drag, styled } from 'react-uni-comps';
 
 const StyledDiv = styled.div`
   width: 120px;

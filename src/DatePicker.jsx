@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Toast, Cell, Button, DatePicker, styled } from 'react-uni-comps';
-import dayjs from 'react-uni-comps/dayjs';
+import { Toast, Cell, Button, DatePicker } from 'react-uni-comps';
+import dayjs from 'dayjs';
 import { CalendarOutlined } from '@ant-design/icons';
 
 const dateFormat = 'YYYY-MM-DD';
@@ -8,7 +8,9 @@ const dateFormat = 'YYYY-MM-DD';
 const formatDate = (v, dateFormat) => {
   if (Array.isArray(v)) {
     if (v.length === 2) {
-      return dayjs(v[0]).format(dateFormat) + '~' + dayjs(v[1]).format(dateFormat);
+      return (
+        dayjs(v[0]).format(dateFormat) + '~' + dayjs(v[1]).format(dateFormat)
+      );
     }
   } else {
     return v && dayjs(v).format(dateFormat);
